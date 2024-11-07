@@ -2,9 +2,15 @@
 
 __One Paragraph+__ describing the project goes here. For example: This is a README template you would use to describe a scientific or data analysis project. Provide an overview of the goals of the project, how data was obtained, and other important details others or you in 6 months should be aware of.
 
+## Interactive Version
+
+Click on the button below to run the repository in the binder. It may take a couple of minutes. 
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FilipKubackiEmoLink/Biomarkers-of-Recurrence-and-Progression-in-Non-muscle-Invasive-Bladder-Cancer/HEAD)
+
 ## Data
 
-Describe the dataset in more detail here if necessary
+Training dataset was over-sampled using the [SMOTE](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTE.html) to coutermeasure the data imbalance.
 
 __Data Contact__
 
@@ -38,6 +44,14 @@ List references with links to publications this analysis was used for.
  __The genetic basis of natural variation in Caenorhabditis elegans telomere length__<br />
 Cook DE, Zdraljevic S, Tanny RE, Seo B, Riccardi DD, Noble LM, Rockman MV, Alkema MJ, Braendle C, Kammenga JE, Wang J, Kruglyak L, Fe ́ lix MA, Lee J, Andersen EC. <br />
 2016. Genetics 204:371–383. DOI: https://doi.org/10.1534/genetics.116. 191148, PMID: 27449056
+
+## Training Results
+
+![Alt text](Plots/TrainingComp.png)
+<br /> Figure 1: A visualization summarizing the randomized search on hyper parameters for multipel models.
+
+![Alt text](Plots/FeatureImportance.png)
+<br /> Figure 2: A visualization summarizing the normalized feature imprtance of the models holding such information.
 
 ## Contributing
 

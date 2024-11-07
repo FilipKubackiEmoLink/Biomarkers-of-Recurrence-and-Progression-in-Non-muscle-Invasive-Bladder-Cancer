@@ -19,7 +19,7 @@ Most scripts / analysis can be left as they often do not take up substantial amo
 
 To run the ***Analyses.ipynb*** you need to first configure the environment
 ```
-pip install .
+pip install -r requirements.txt
 ```
 
 ### Recomendation
